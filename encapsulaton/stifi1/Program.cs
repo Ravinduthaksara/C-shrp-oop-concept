@@ -15,7 +15,8 @@ namespace stifi1
 
             Encap1 en = new Encap1();
             en.setval(a , b);
-            Console.WriteLine("" + en.getval());
+            Console.WriteLine("The summation is " + en.getval());
+            Console.WriteLine("The multipication is "+en.getmul());
 
         }
     }
